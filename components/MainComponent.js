@@ -259,7 +259,6 @@ const AppNavigator = createAppContainer(MainNavigator);
 class Main extends Component {
     
     componentDidMount() {
-        console.log("componentDidMount");
         this.props.fetchCampsites();
         this.props.fetchComments();
         this.props.fetchPromotions();
