@@ -37,7 +37,7 @@ class Favorites extends Component {
                     <TouchableOpacity style={styles.deleteTouchable} onPress={()=>
                     
                         Alert.alert('Delete Favorite',
-                        'Are you sure you wish to delte the favorite from the campsite ' + item.name + '?', 
+                        'Are you sure you wish to delete the favorite from the campsite ' + item.name + '?', 
                         [
                             {
                                 text: 'Cancel',
